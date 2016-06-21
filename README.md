@@ -1,0 +1,1 @@
+In this repository you will find my solutions for projects and exercises from [The Odin Project](http://theodinproject.com)
