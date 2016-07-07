@@ -13,6 +13,10 @@ $(document).ready(function(){
   $('.empty').hover(function(){
     $(this).addClass('hover')
   });
+  
+  $('#clear').click(function(){
+    $('div.hover').toggleClass('hover');
+  });
 
 
 })
