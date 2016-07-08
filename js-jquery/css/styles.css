@@ -1,25 +1,30 @@
-body{
-  margin: 0;
-}
-
-div{
-  marign: 0;
-}
-
 .wrapper{
   width: 600px;
   height: 600px;
-  border: 1px solid #666;
   margin: 0 auto;
+  border: 1px solid black;
+
 }
 
 .empty{
-  /*border: 1px solid black;*/
-  display: inline-block;
-  margin: 0px;
-
+  border: 1px solid black;
+  margin: -1px;
+  float:left;
 }
 
 .hover{
   background-color: red;
+}
+
+#container {
+  margin-bottom: 10px;
+}
+
+#clear{
+  width: 100px;
+  height: 30px;
+  border: 1px solid #666;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: transparent;
 }
