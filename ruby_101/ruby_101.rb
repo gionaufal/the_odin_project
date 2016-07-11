@@ -20,3 +20,16 @@ string.sub
 string.gsub #global
 
 "this is a sentence".gsub("e"){ puts "Found an E!"}
+
+5.times do |i|
+  puts "#{i}: Hello, World!"
+end
+
+# the idea of an student. For real students, we have to make an instance
+class Student
+  attr_accessor :first_name, :last_name, :primary_phone_number
+
+  def introduction
+    puts "Hi, I'm #{first_name}!"
+  end
+end
