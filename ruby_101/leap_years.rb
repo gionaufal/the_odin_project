@@ -8,12 +8,12 @@ def leap_years(start, end_year)
   leap = []
   while year <= end_year
     # still have to exclude numbers divisible by 100 and not by 400
-    if year % 4 == 0
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
       leap << year
     end
     year = year + 1
   end
-  leap
+  leap.to_s
 end
 
 puts "The leap years between these dates are #{leap_years(start, end_year)}"
