@@ -13,7 +13,7 @@ def leap_years(start, end_year)
     end
     year = year + 1
   end
-  leap.to_s
+  leap.join(", ")
 end
 
-puts "The leap years between these dates are #{leap_years(start, end_year)}"
+puts "The leap years between #{start} and #{end_year} are: #{leap_years(start, end_year)}"
